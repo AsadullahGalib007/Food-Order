@@ -191,9 +191,9 @@
                         //A. Uploading New Image
 
                         //REname the Image
-                        $ext = end(explode('.', $image_name)); //Gets the extension of the image
+                        // $ext = end(explode('.', $image_name)); //Gets the extension of the image
 
-                        $image_name = "Food-Name-".rand(0000, 9999).'.'.$ext; //THis will be renamed image
+                        // $image_name = "Food-Name-".rand(0000, 9999).'.'.$ext; //THis will be renamed image
 
                         //Get the Source Path and DEstination PAth
                         $src_path = $_FILES['image']['tmp_name']; //Source Path
