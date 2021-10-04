@@ -16,7 +16,7 @@
                 <br><br>
 
                 <table class="tbl-full">
-                    <tr>
+                    <tr class = "text-center">
                         <th>S.N.</th>
                         <th>Food</th>
                         <th>Price</th>
@@ -61,7 +61,7 @@
                                 
                                 ?>
 
-                                    <tr>
+                                    <tr class = "text-center">
                                         <td><?php echo $sn++; ?>. </td>
                                         <td><?php echo $food; ?></td>
                                         <td><?php echo $price; ?></td>
