@@ -251,8 +251,16 @@ p{
     font-weight: bold;
 }
 
-   /* footer starts here*/
-   .footer{
+.success{
+	color: #2ed573;
+}
+
+.error{
+	color: #ff4757;
+}
+
+/* footer starts here*/
+.footer{
     background-color: #353b48;
     
     padding:70px 0;
