@@ -33,8 +33,20 @@
                     <li>
                         <a href="<?php echo SITEURL; ?>foods.php">Foods</a>
                     </li>
+
+                    <?php 
+                     $count=0;
+                     if(isset($_SESSION['cart']))
+                     {
+                    $count=count($_SESSION['cart']);
+                     }
+                    ?>
                     <li>
-                        <a href="#">Contact</a>
+                        <a href="mycart.php">My Cart ( <?php echo $count; ?> )</a>
+                    </li>
+
+                    <li>
+                        <a href="#">Contact us</a>
                     </li>
                 </ul>
             </div>
